@@ -1,0 +1,44 @@
+<div class="container booyah-box user-profile">  
+	<h1>Welcome <%= current_user.user_name%></h1>
+  <br />
+  <div class="row">
+      <div class="col-2"></div>
+      <div class="col-4 current_balance">
+          <h2>Current Balance</h2>
+          <h3>$ 4</h3>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-4 mt-3">
+          <%= link_to 'Update Account', update_account_path, class: "btn user-profile-btn" %>
+          <br/>
+          <%= link_to 'Add Balance', add_balance_path, class: "btn user-profile-btn" %>
+          <%= link_to 'Make Payment', make_payment_path, class: "btn user-profile-btn" %>
+          <br/>
+      </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-1"></div>
+    <div class="col-10 ">
+      <h1>Transaction History</h1>
+      <div class="mt-2 table-wrapper-scroll-y my-custom-scrollbar">
+
+        <table class="table table-bordered table-striped mb-0">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Box ID</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>02-02-2021</td>
+              <td>1234</td>
+              <td>$25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

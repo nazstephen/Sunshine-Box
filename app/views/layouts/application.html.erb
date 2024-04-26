@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SunshineBox</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <div id="flex-content-container">
+    <%= render 'shared/navbar' %>
+
+    <% if notice.present? %>
+      <p class="alert alert-info"><%= notice %></p>
+    <% end %>
+    
+    <% if alert.present? %>
+      <p class="alert alert-danger"><%= alert %></p>
+    <% end %>
+
+    <%= yield %>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-3">
+        <b>About</b>
+        <br />
+        <%= link_to 'About Us', about_path %>
+        <br />
+        <%= link_to 'Partnerships', partnerships_path %>
+        <br />
+        <%= link_to 'Privacy Policy', privacy_path %>
+        <br />
+      </div>
+      <div class="col-sm-3">
+        <b>Contact</b>
+        <br />
+        conner@email.com
+        <br />
+        addy
+        <br />
+        state and zip
+      </div>
+      <div class="col-sm-3">
+        <b>Social</b>
+        <br />
+        figure out why these logos aren't working later yo
+        <span class="fab fa-github-square"></span>
+        <span class="fab fa-instagram-square"></span>
+        <span class="fab fa-facebook-square"></span>
+        <span class="fab fa-twitter-square"></span>
+      </div>
+    </div>
+    </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<div class="main-w3layouts wrapper">
+<h1>Sign up</h1>
+<div class="main-agileinfo">
+  <div class="agileits-top">
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+      <%= render "devise/shared/error_messages", resource: resource %>
+
+<!--   
+  Y'all we gotta figure out how to implement a name field.. I compltetely forgot about it lol
+ -->
+
+      <div class="field">
+        <%= f.label :email %><br />
+        <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "text " %>
+      </div>
+
+      <br/>
+      <div class="field">
+        <%= f.label :phone_number %><br />
+        <%= f.text_field :phone_number, class: "text" %>
+      </div>
+
+      <br />
+      <div class="field">
+        <%= f.label :user_name %><br />
+        <%= f.text_field :user_name, class: "text" %>
+      </div>
+
+      <br />
+      <div class="field">
+        <%= f.label :user_type %><br>
+        <%= f.select(:user_type, User.user_types.keys.map {|role| [role.titleize,role]}) %>
+      </div>
+      <br />
+
+      <div class="field">
+        <%= f.label :password%>
+        <% if @minimum_password_length %>
+        <em>(<%= @minimum_password_length %> characters minimum)</em>
+        <% end %><br />
+        <%= f.password_field :password, autocomplete: "new-password", class: "text" %>
+      </div>
+
+      <br />
+
+      <div class="field">
+        <%= f.label :password_confirmation%><br />
+        <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "text" %>
+      </div>
+
+      <br />
+
+      <div class="actions">
+        <%= f.submit "Sign In", class: 'btn btn-primary' %>
+      </div>
+    <% end %>
+
+    <br />
+    <p>Don't have an Account? <%= render "devise/shared/links" %></p>
+    
+  </div>
+</div>
+</div>
