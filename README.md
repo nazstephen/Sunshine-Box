@@ -11,19 +11,19 @@ Sunshine Box is determined in providing environmentally safe and affordable elec
 The UI’s icons, tabs, and buttons should be self explanatory and should require no manual to read before operating. The UI should be minimalistic and include functions critical to the customer. The front end of the application will be developed using HTML and CSS. 
 
 # Security Requirements
-Our security requirements included secure passwords and secure PIN and cell phone numbers for customer accounts. We also required that the Administrator account could see information of the user but could not edit their account. Our most important security requirement that we were able to implement was user type authentication, which made it so users have privileges and access only to their respective accounts (i.e. customers only have access to the customer interface and administrators only have access to the administrator interface).
+Our security requirements encompassed a comprehensive suite of measures, reflecting a commitment to safeguarding sensitive user data and fortifying system integrity. Among these, stringent protocols were established to ensure the  protection of customer accounts, mandating not only the implementation of secure passwords but also the fortification of Personal Identification Numbers (PINs) and cell phone numbers against unauthorized access or malicious exploitation.
 
 # Documentation Requirements:
 Our only documentation requirement was the implementation of a help button, which could be used in the event that a user is unable to decipher the UI. Unfortunately, we did not get around to implementing this.
 
 # Performance Requirements
-For our performance requirements we determined that the maximum load time of the app should be around two seconds and that there be a maximum of 10 menu options/button prompts per screen. We also required that the administrator environment speed should not be affected by an increased number of boxes added to the fleet.
+For our performance requirements we determined that the maximum load time of the app should be around two seconds and that there be a maximum of 10 menu options/button prompts per screen. We also required that the processing speed of the web application should not be affected by an increased number of boxes added to the fleet.
 
 # Software Architecture
 ![Alt Text](SoftwareArchitecture.png)
 
 # Methodology
-Agile: we used an agile methodology when implementing our web program, which allowed us to assess the requirements provided by customers and administrators of the Sunshine Box, to develop solutions through collaborative efforts between our development team and the end users. Further allowing us to adapt and update our software, by recognizing the ever-changing user stories and feedback we received. 
+Agile: we used an agile methodology when implementing our web program, which allowed us to assess the requirements provided by customers of the Sunshine Box, to develop solutions through collaborative efforts between our development team and the end users. Further allowing us to adapt and update our software, by recognizing the ever-changing user stories and feedback we received. 
 
 # Tool Selection
 Ruby on Rails: or Rails, is a server-side web application framework written in the programming language Ruby. Rails is a model–view–controller framework, which provides default structures for a database, a web service, and web pages. By using Ruby on Rails, we were able to create a multifunctional web application that allowed multiple users to create accounts, and access features related directly to the Sunshine Box.
