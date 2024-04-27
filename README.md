@@ -38,10 +38,13 @@ Github: is a code hosting platform for version control and collaboration. It all
 
 # User Interface
 Customer Dashboard
+<!-- Empty line -->
 ![Alt Text](unnamed.png)
 
 Update Account Info
+<!-- Empty line -->
 ![Alt Text](1.png)
 
 Add Balance
+<!-- Empty line -->
 ![Alt Text](2.png)
