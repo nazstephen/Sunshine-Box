@@ -15,28 +15,28 @@ __Customer Dashboard:__
 <!-- Empty line -->
 The customer dashboard has a number of modules. Current Balance displays the current balance in a customer’s account. Transaction History displays a record of the transaction history between a customer and a Sunshine Box.	
 <!-- Empty line -->
-![Alt Text](unnamed.png)
+![Alt Text](CustomerDashboard.png)
 -------------------
 
 __Update Account Info:__
 <!-- Empty line -->
 In this module a customer can update his/her personal info Such as their phone number, password, and username
 <!-- Empty line -->
-![Alt Text](1.png)
+![Alt Text](UpdateAccount.png)
 -------------------
 
 __Add Balance:__
 <!-- Empty line -->
 In this module a customer can add a balance to their account. Before a customer can add a balance they must input his/her phone number, password and the Box ID of the Sunshine Box they would like to use. Implemented a slider that calculates the rate of charge of the Sunshine Box.
 <!-- Empty line -->
-![Alt Text](2.png)
+![Alt Text](AddBalance.png)
 -------------------
 
 __Box Transaction History (Admin Only):__
 <!-- Empty line -->
 The Admin can view the details of the particular Sunshine Box. They can see info such as a box’s transaction history, rate of charge, and revenue share. The Admin can also edit the rate of charge and revenue share of each individual box.
 <!-- Empty line -->
-![Alt Text](3.png)
+![Alt Text](BoxTransactionHistory.png)
 
 # Methodology
 Agile: we used an agile methodology when implementing our web program, which allowed us to assess the requirements provided by customers, agents and administrators of the Sunshine Box, to   develop solutions through collaborative efforts between our development team and the end users. Further allowing us to adapt and update our software, by recognizing the ever-changing user stories and feedback we received. 
