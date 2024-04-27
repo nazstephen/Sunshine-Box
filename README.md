@@ -10,32 +10,6 @@ Sunshine Box is determined in providing environmentally safe and affordable elec
 # Software Architecture
 ![Alt Text](SoftwareArchitecture.png)
 
-# Methodology
-Agile: we used an agile methodology when implementing our web program, which allowed us to assess the requirements provided by customers, agents and administrators of the Sunshine Box, to   develop solutions through collaborative efforts between our development team and the end users. Further allowing us to adapt and update our software, by recognizing the ever-changing user stories and feedback we received. 
-
-# Tool Selection
-Ruby on Rails: or Rails, is a server-side web application framework written in the programming language Ruby. Rails is a model–view–controller framework, which provides default structures for a database, a web service, and web pages. By using Ruby on Rails, we were able to create a multifunctional web application that allowed multiple users to create accounts, and access features related directly to the Sunshine Box.
-
-HTML/CSS: HTML is a Hyper Text Markup Language, which is the standard markup language used to create web pages. HTML is used to define the contents of web pages, and is often used hand in hand with CSS, Cascading Style Sheets. CSS is used to format the layout of a webpage, and saves a lot of time for programmers by allowing them to control the layout of multiple pages at once.
-
-Javascript: javascript is used to program the behavior of the web page, and allows HTML pages to be more dynamic, fluid and interactive. It enhances the overall structure of web pages, and allows users to have a better experience using the web application.
-Postgres: is a free and open-source relational database management system emphasizing extensibility and SQL compliance. The combined usage of the SQL language and many other features that Postgres provided, allowed us to safely store and scale the most complicated data workloads. 
-
-# Project Management
-Pivotal Tracker: this project management software allowed our team to assign tasks, and stay up to date on our most recent sprints. Although we found it difficult to use at first, it really helped us stay on track and get our tasks done diligently and in a timely manner.
-
-# Source Code Management
-Sublime: is a sophisticated text editor which is widely used among developers. It includes wide features such as Syntax Highlight, Auto Indentation, File Type Recognition, Sidebar, Macros, Plug-in and Packages that make it easy for working with code base. Due to previous experience with Sublime, and positive reviews from hundreds of other programmers, we decided to use this text editor for our web application.
-
-# Build/Release Management 
-Heroku: is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Having used Heroku in the past, we decided that this platform was the most flexible, and easy to use, offering our team the simplest path to getting our web application deployed to the market.
-
-# QA/Test Management
-RSpec: this is a Ruby gem that can be installed and configured to allow us to run tests in our application. We frequently used RSpec to create and implement a test-driven approach to build out different features in our application. To run our tests, we frequently used the command ‘bundle exec rspec’ in our terminal which quickly allowed us to fix any issues without pushing our code and viewing it in our web browser. With these tests, RSpec quickly outputted the status of our tests, and whether or not they passed or failed - in which case we could leave our code as is, or implement changes until the test passed.
-
-# Documentation Management
-Github: is a code hosting platform for version control and collaboration. It allowed our team to work together on projects from anywhere. By editing our source code, we were easily able to push our code to our teammates, and pull their code in return. It proved to be the most functional way to complete a year-long project while not being in each other's presence due to the pandemic.
-
 # User Interface
 __Customer Dashboard:__
 <!-- Empty line -->
@@ -63,3 +37,29 @@ __Box Transaction History (Admin Only):__
 The Admin can view the details of the particular Sunshine Box. They can see info such as a box’s transaction history, rate of charge, and revenue share. The Admin can also edit the rate of charge and revenue share of each individual box.
 <!-- Empty line -->
 ![Alt Text](3.png)
+
+# Methodology
+Agile: we used an agile methodology when implementing our web program, which allowed us to assess the requirements provided by customers, agents and administrators of the Sunshine Box, to   develop solutions through collaborative efforts between our development team and the end users. Further allowing us to adapt and update our software, by recognizing the ever-changing user stories and feedback we received. 
+
+# Tool Selection
+Ruby on Rails: or Rails, is a server-side web application framework written in the programming language Ruby. Rails is a model–view–controller framework, which provides default structures for a database, a web service, and web pages. By using Ruby on Rails, we were able to create a multifunctional web application that allowed multiple users to create accounts, and access features related directly to the Sunshine Box.
+
+HTML/CSS: HTML is a Hyper Text Markup Language, which is the standard markup language used to create web pages. HTML is used to define the contents of web pages, and is often used hand in hand with CSS, Cascading Style Sheets. CSS is used to format the layout of a webpage, and saves a lot of time for programmers by allowing them to control the layout of multiple pages at once.
+
+Javascript: javascript is used to program the behavior of the web page, and allows HTML pages to be more dynamic, fluid and interactive. It enhances the overall structure of web pages, and allows users to have a better experience using the web application.
+Postgres: is a free and open-source relational database management system emphasizing extensibility and SQL compliance. The combined usage of the SQL language and many other features that Postgres provided, allowed us to safely store and scale the most complicated data workloads. 
+
+# Project Management
+Pivotal Tracker: this project management software allowed our team to assign tasks, and stay up to date on our most recent sprints. Although we found it difficult to use at first, it really helped us stay on track and get our tasks done diligently and in a timely manner.
+
+# Source Code Management
+Sublime: is a sophisticated text editor which is widely used among developers. It includes wide features such as Syntax Highlight, Auto Indentation, File Type Recognition, Sidebar, Macros, Plug-in and Packages that make it easy for working with code base. Due to previous experience with Sublime, and positive reviews from hundreds of other programmers, we decided to use this text editor for our web application.
+
+# Build/Release Management 
+Heroku: is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Having used Heroku in the past, we decided that this platform was the most flexible, and easy to use, offering our team the simplest path to getting our web application deployed to the market.
+
+# QA/Test Management
+RSpec: this is a Ruby gem that can be installed and configured to allow us to run tests in our application. We frequently used RSpec to create and implement a test-driven approach to build out different features in our application. To run our tests, we frequently used the command ‘bundle exec rspec’ in our terminal which quickly allowed us to fix any issues without pushing our code and viewing it in our web browser. With these tests, RSpec quickly outputted the status of our tests, and whether or not they passed or failed - in which case we could leave our code as is, or implement changes until the test passed.
+
+# Documentation Management
+Github: is a code hosting platform for version control and collaboration. It allowed our team to work together on projects from anywhere. By editing our source code, we were easily able to push our code to our teammates, and pull their code in return. It proved to be the most functional way to complete a year-long project while not being in each other's presence due to the pandemic.
