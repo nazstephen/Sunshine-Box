@@ -36,9 +36,6 @@ RSpec: this is a Ruby gem that can be installed and configured to allow us to ru
 # Documentation Management
 Github: is a code hosting platform for version control and collaboration. It allowed our team to work together on projects from anywhere. By editing our source code, we were easily able to push our code to our teammates, and pull their code in return. It proved to be the most functional way to complete a year-long project while not being in each other's presence due to the pandemic.
 
-# Software Architecture
-![Alt Text](SoftwareArchitecture.png)
-
 # User Interface
 __Customer Dashboard:__
 <!-- Empty line -->
