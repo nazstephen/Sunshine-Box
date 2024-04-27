@@ -1,5 +1,5 @@
 # CS6-Sunshine Box
-![Alt Text](SunshineBoxHardware.png) ![Alt Text](SoftwareArchitecture.png)
+![Alt Text](y.png) ![Alt Text](x.png)
 
 # Problem Statement
 Sunshine Box is a for profit company that provides developing countries with portable, solar-powered cell phone charging stations. Users pay agents who are owners of the box for charging time. The transactions that occur between a customer and a Sunshine Box are done completely through  text. A customer texts an agent the amount they would like to pay and the agent charges their cell phone for a certain amount of time. Our client tasked us with implementing  an application that makes it easier for her, agents, and customers to  manage, capture, and display data of the transactions between the box and customers in order to clearly show the income that each box is making. We were also tasked with implementing a way for Sunshine Box users to create an account (via text message/the web etc.) that allows them to deposit money and visualize records of their transaction history between Sunshine Boxes.
