@@ -13,9 +13,6 @@ The UI’s icons, tabs, and buttons should be self explanatory and should requir
 # Security Requirements
 Our security requirements encompassed a comprehensive suite of measures, reflecting a commitment to safeguarding sensitive user data and fortifying system integrity. Among these, stringent protocols were established to ensure the  protection of customer accounts, mandating not only the implementation of secure passwords but also the fortification of Personal Identification Numbers (PINs) and cell phone numbers against unauthorized access or malicious exploitation.
 
-# Documentation Requirements:
-Our only documentation requirement was the implementation of a help button, which could be used in the event that a user is unable to decipher the UI. Unfortunately, we did not get around to implementing this.
-
 # Performance Requirements
 For our performance requirements we determined that the maximum load time of the app should be around two seconds and that there be a maximum of 10 menu options/button prompts per screen. We also required that the processing speed of the web application should not be affected by an increased number of boxes added to the fleet.
 
