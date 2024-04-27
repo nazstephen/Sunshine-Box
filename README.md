@@ -1,5 +1,5 @@
 # CS6-Sunshine Box
-![Alt Text](SunshineBoxHardware.jpg) ![Alt Text](unnamed.png)
+![Alt Text](SunshineBoxHardware.jpg)
 
 # Problem Statement
 Sunshine Box is a for profit company that provides developing countries with portable, solar-powered cell phone charging stations. Users pay agents who are owners of the box for charging time. The transactions that occur between a customer and a Sunshine Box are done completely through  text. A customer texts an agent the amount they would like to pay and the agent charges their cell phone for a certain amount of time. Our client tasked us with implementing  an application that makes it easier for her, agents, and customers to  manage, capture, and display data of the transactions between the box and customers in order to clearly show the income that each box is making. We were also tasked with implementing a way for Sunshine Box users to create an account (via text message/the web etc.) that allows them to deposit money and visualize records of their transaction history between Sunshine Boxes.
@@ -33,9 +33,11 @@ Heroku: is a container-based cloud Platform as a Service (PaaS). Developers use 
 # QA/Test Management
 RSpec: this is a Ruby gem that can be installed and configured to allow us to run tests in our application. We frequently used RSpec to create and implement a test-driven approach to build out different features in our application. To run our tests, we frequently used the command ‘bundle exec rspec’ in our terminal which quickly allowed us to fix any issues without pushing our code and viewing it in our web browser. With these tests, RSpec quickly outputted the status of our tests, and whether or not they passed or failed - in which case we could leave our code as is, or implement changes until the test passed.
 
-# User Interface
-
 # Documentation Management
-![Alt Text](SoftwareArchitecture.png)
 Github: is a code hosting platform for version control and collaboration. It allowed our team to work together on projects from anywhere. By editing our source code, we were easily able to push our code to our teammates, and pull their code in return. It proved to be the most functional way to complete a year-long project while not being in each other's presence due to the pandemic.
 
+# User Interface
+![Alt Text](unnamed.png)
+![Alt Text](1.png)
+![Alt Text](2.png)
+![Alt Text](3.png)
