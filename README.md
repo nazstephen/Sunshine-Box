@@ -37,28 +37,34 @@ RSpec: this is a Ruby gem that can be installed and configured to allow us to ru
 Github: is a code hosting platform for version control and collaboration. It allowed our team to work together on projects from anywhere. By editing our source code, we were easily able to push our code to our teammates, and pull their code in return. It proved to be the most functional way to complete a year-long project while not being in each other's presence due to the pandemic.
 
 # User Interface
-__Customer Dashboard:__
+__Dashboard (Customer):__
 <!-- Empty line -->
 The customer dashboard has a number of modules. Current Balance displays the current balance in a customer’s account. Transaction History displays a record of the transaction history between a customer and a Sunshine Box.	
 <!-- Empty line -->
 ![Alt Text](CustomerDashboard.png)
 -------------------
 
-__Update Account Info:__
+__Update Account Info (Customer):__
 <!-- Empty line -->
 In this module a customer can update his/her personal info Such as their phone number, password, and username
 <!-- Empty line -->
 ![Alt Text](UpdateInfo.png)
 -------------------
 
-__Add Balance:__
+__Add Balance (Customer):__
 <!-- Empty line -->
 In this module a customer can add a balance to their account. Before a customer can add a balance they must input his/her phone number, password and the Box ID of the Sunshine Box they would like to use. Implemented a slider that calculates the rate of charge of the Sunshine Box.
 <!-- Empty line -->
 ![Alt Text](AddBalance.png)
 -------------------
 
-__Box Transaction History (Admin Only):__
+__Dashboard (Admin):__
+<!-- Empty line -->
+The Administrator acts as the “mothership” and has control over all the Sunshine Boxes. The dashboard for the Admin profile can view all the Sunshine Boxes currently deployed.
+<!-- Empty line -->
+![Alt Text](AdminDashboard.png)
+
+__Box Transaction History (Admin):__
 <!-- Empty line -->
 The Admin can view the details of the particular Sunshine Box. They can see info such as a box’s transaction history, rate of charge, and revenue share. The Admin can also edit the rate of charge and revenue share of each individual box.
 <!-- Empty line -->
