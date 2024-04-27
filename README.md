@@ -42,8 +42,10 @@ Customer Dashboard:
 The customer dashboard has a number of modules. Current Balance displays the current balance in a customer’s account. Transaction History displays a record of the transaction history between a customer and a Sunshine Box.	
 <!-- Empty line -->
 ![Alt Text](unnamed.png)
+-------------------
 
 Update Account Info:
+-------------------
 <!-- Empty line -->
 In this module a customer can update his/her personal info Such as their phone number, password, and username
 <!-- Empty line -->
