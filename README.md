@@ -38,7 +38,6 @@ Github: is a code hosting platform for version control and collaboration. It all
 
 # User Interface
 Customer Dashboard
-`<br>`
 ![Alt Text](unnamed.png)
 
 Update Account Info
@@ -46,6 +45,3 @@ Update Account Info
 
 Add Balance
 ![Alt Text](2.png)
-
-
-![Alt Text](3.png)
