@@ -11,8 +11,9 @@ Sunshine Box is determined in providing environmentally safe and affordable elec
 The UI’s icons, tabs, and buttons should be self explanatory and should require no manual to read before operating. The UI should be minimalistic and include only functions critical to the role of either the Customer, Administrator, Agent, or Non-Profit. The front end of the application will be developed using HTML and CSS. 
 
 # Security Requirements
-Our security requirements included secure passwords and secure PIN and cell phone numbers for customer accounts. We also required that the Administrator account could see information of the user but could ntt edit their account. Our most important security requirement that we were able to implement was user type authentication, which made it so users have privileges and access only to their respective accounts (i.e. customers only have access to the customer interface, administrators only have access to the administrator interface, and so on).
-Documentation Requirements:
+Our security requirements included secure passwords and secure PIN and cell phone numbers for customer accounts. We also required that the Administrator account could see information of the user but could not edit their account. Our most important security requirement that we were able to implement was user type authentication, which made it so users have privileges and access only to their respective accounts (i.e. customers only have access to the customer interface, administrators only have access to the administrator interface, and so on).
+
+# Documentation Requirements:
 Our only documentation requirement was the implementation of a help button, which could be used in the event that a user is unable to decipher the UI. Unfortunately, we did not get around to implementing this.
 
 # Performance Requirements
