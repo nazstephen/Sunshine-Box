@@ -7,6 +7,18 @@ Sunshine Box is a for profit company that provides developing countries with por
 # Problem Context
 Sunshine Box is determined in providing environmentally safe and affordable electricity to those in need of it. In countries such as Haiti, where laptops and computers are often impractical, a cell phone is usually the only way to do essential tasks like monitoring breaking weather conditions, staying informed on current events, conducting online banking or staying in touch with distant family. Currently 80% of Haitians have cell phones, but only 12% have access to electricity. Without a source of electricity, it becomes impossible to charge and use a cell phone, depriving a majority of citizens in Haiti the ability to access the internet and communicate via telecommerce. The Sunshine Box is a solution to this problem, as it serves as a lifeline to important functions, allowing the people who use it to stay connected. Since the Sunshine Box is solar powered it can be used at any time during the day and can be made available to anyone who wishes to use it. As of right now, all payments to the Sunshine Box are done upfront, which puts customers and agents at risk of being robbed. Implementing a web application which allows customers and agents to carry out these transactions will not only make it easier to use the Sunshine Box, but also safer.
 
+# User Interface Requirements
+The UI’s icons, tabs, and buttons should be self explanatory and should require no manual to read before operating. The UI should be minimalistic and include only functions critical to the role of either the Customer, Administrator, Agent, or Non-Profit. The front end of the application will be developed using HTML and CSS. 
+
+# Security Requirements
+Our security requirements included secure passwords and secure PIN and cell phone numbers for customer accounts. We also required that the Administrator account could see information of the user but could ntt edit their account. Our most important security requirement that we were able to implement was user type authentication, which made it so users have privileges and access only to their respective accounts (i.e. customers only have access to the customer interface, administrators only have access to the administrator interface, and so on).
+Documentation Requirements:
+Our only documentation requirement was the implementation of a help button, which could be used in the event that a user is unable to decipher the UI. Unfortunately, we did not get around to implementing this.
+
+# Performance Requirements
+For our performance requirements we determined that the maximum load time of the app should be around two seconds and that there be a maximum of 10 menu options/button prompts per screen. We also required that the administrator environment speed should not be affected by an increased number of boxes added to the fleet.
+
+
 # Software Architecture
 ![Alt Text](SoftwareArchitecture.png)
 
