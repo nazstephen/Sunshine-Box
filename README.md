@@ -37,7 +37,7 @@ RSpec: this is a Ruby gem that can be installed and configured to allow us to ru
 Github: is a code hosting platform for version control and collaboration. It allowed our team to work together on projects from anywhere. By editing our source code, we were easily able to push our code to our teammates, and pull their code in return. It proved to be the most functional way to complete a year-long project while not being in each other's presence due to the pandemic.
 
 # User Interface
-Customer Dashboard:
+__Customer Dashboard:__
 <!-- Empty line -->
 The customer dashboard has a number of modules. Current Balance displays the current balance in a customer’s account. Transaction History displays a record of the transaction history between a customer and a Sunshine Box.	
 <!-- Empty line -->
@@ -51,13 +51,14 @@ In this module a customer can update his/her personal info Such as their phone n
 ![Alt Text](1.png)
 -------------------
 
-Add Balance: <!-- Empty line -->
+__Add Balance:__
+<!-- Empty line -->
 In this module a customer can add a balance to their account. Before a customer can add a balance they must input his/her phone number, password and the Box ID of the Sunshine Box they would like to use. Implemented a slider that calculates the rate of charge of the Sunshine Box.
 <!-- Empty line -->
 ![Alt Text](2.png)
 -------------------
 
-Box Transaction History (Admin Only):
+__Box Transaction History (Admin Only):__
 <!-- Empty line -->
 The Admin can view the details of the particular Sunshine Box. They can see info such as a box’s transaction history, rate of charge, and revenue share. The Admin can also edit the rate of charge and revenue share of each individual box.
 <!-- Empty line -->
