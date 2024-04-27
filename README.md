@@ -44,7 +44,7 @@ The customer dashboard has a number of modules. Current Balance displays the cur
 ![Alt Text](unnamed.png)
 -------------------
 
-Update Account Info:
+__Update Account Info:__
 <!-- Empty line -->
 In this module a customer can update his/her personal info Such as their phone number, password, and username
 <!-- Empty line -->
