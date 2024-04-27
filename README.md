@@ -49,8 +49,7 @@ In this module a customer can update his/her personal info Such as their phone n
 <!-- Empty line -->
 ![Alt Text](1.png)
 
-Add Balance:
-<!-- Empty line -->
+Add Balance: <!-- Empty line -->
 In this module a customer can add a balance to their account. Before a customer can add a balance they must input his/her phone number, password and the Box ID of the Sunshine Box they would like to use. Implemented a slider that calculates the rate of charge of the Sunshine Box.
 <!-- Empty line -->
 ![Alt Text](2.png)
