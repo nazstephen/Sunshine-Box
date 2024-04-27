@@ -22,7 +22,7 @@ __Update Account Info:__
 <!-- Empty line -->
 In this module a customer can update his/her personal info Such as their phone number, password, and username
 <!-- Empty line -->
-![Alt Text](UpdateAccount.png)
+![Alt Text](UpdateInfo.png)
 -------------------
 
 __Add Balance:__
