@@ -1,4 +1,4 @@
-# CS6-Sunshine Box
+# CS6-Sunshine Bo
 ![Alt Text](SunshineBoxHardware.jpeg) ![Alt Text](SunshineBoxHardware2.jpg)
 
 # Problem Statement
