@@ -38,7 +38,7 @@ Github: is a code hosting platform for version control and collaboration. It all
 
 # User Interface
 Customer Dashboard:
-<!-- Empty line -->
+-------------------
 The customer dashboard has a number of modules. Current Balance displays the current balance in a customer’s account. Transaction History displays a record of the transaction history between a customer and a Sunshine Box.	
 <!-- Empty line -->
 ![Alt Text](unnamed.png)
